@@ -9,7 +9,7 @@ Este es una pagina para una materia designada como Diseño Web I, con el fin de 
 ## Contributing
 
 Juan Ignacio Ridao Sanchez
-Barbara Manrrique Gil
+Barbara Danira Manrrique Gil
 
 ## License
 
