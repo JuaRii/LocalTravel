@@ -8,8 +8,8 @@ Este es una pagina para una materia designada como Diseño Web I, con el fin de 
 
 ## Contributing
 
-Juan Ignacio Ridao Sanchez
-Barbara Manrrique Gil
+Juan Ignacio Ridao Sanchez <br>
+Barbara Danira Manrrique Gil
 
 ## License
 
