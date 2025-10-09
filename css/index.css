@@ -1,0 +1,10 @@
+:root{
+    --orange: #FF8904;
+    --yellow: #FFD230;
+    --yellow-light: #FEE685;
+    --red: #E7180B;
+}
+.cbg-primary
+{
+    background-color: var(--orange) !important;
+}
