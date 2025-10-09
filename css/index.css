@@ -4,7 +4,51 @@
     --yellow-light: #FEE685;
     --red: #E7180B;
 }
+.outfit-bold{
+    font-family: "Outfit", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+}
+
+.roboto-slab-medium {
+    font-family: "Roboto Slab", serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+}
 .cbg-primary
 {
     background-color: var(--orange) !important;
+}
+
+.color-red{
+    color: var(--red);
+}
+.shadow-txt-red{
+    text-shadow: 2px 1px 0px rgb(0,0,0);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #18E7F4 !important;
+    border-radius: 50% !important;
+    padding: 20px !important;
+    
+}
+.carousel-control-prev-icon{
+    background-image: url(../src/img/page_index/arrow-left.svg) !important;
+    filter: invert(100%) !important;
+}
+.carousel-control-next-icon{
+    background-image: url(../src/img/page_index/arrow-right.svg) !important;
+    filter: invert(100%) !important;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    background-color: var(--red) !important;
+}
+.carousel-indicators .active{
+    background-color: var(--yellow) !important;
 }
