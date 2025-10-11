@@ -3,8 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <title>Local Travel</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" href="src/img/nav/logo.png">
 </head>
 <body>
+    <header>
+    <!-- Nav -->
+        <nav class="navbar navbar-expand-lg cbg-primary navbar-dark">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="src/img/nav/isotipo.png" height="92px" width="200px" >
+                    </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-lg-5 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active roboto-slab-medium" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle roboto-slab-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PROMOCIONES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item roboto-slab-medium" href="#">INDIVIDUALES</a></li>
+                                <li><a class="dropdown-item roboto-slab-medium" href="#">GRUPALES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link roboto-slab-medium" href="#">VIAJES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link roboto-slab-medium" href="#">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-column mb-1">
+                        <form class="" role="search">
+                        <input class="form-control me-2 mb-2 border rounded-5 text-center" type="search" placeholder="Buscar destino" aria-label="Search"/>
+                        
+                        </form>
+                        <button type="button" class="btn btn-warning rounded-5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16"><path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/></svg> Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <!-- Fin nav -->
+    <div class="cbg-primary w-100 d-grid">
+        <div class="text-center align-items-center justify-content-center mb-3">
+            <div class="row align-items-center m-3 justify-content-center">
+                <div class="col align-items-baseline">
+                    <img src="src/img/page_index/header/pos-terminal.png" class="">
+                </div>
+                <div class="col align-items-center justify-content-center">
+                    <h1 class="outfit-bold txt-blanco m-4 text-center">MÉTODOS DE PAGOS</h1>
+                    <h3 class="outfit-bold txt-blanco text-end"> Aceptamos todas las<br> tarjetas</h3>
+                    <div class="row">
+                        <div class="col">
+                                <img src="src/img/page_index/header/credito.png" class="icons-header align-items-center" >
+                                <h2 class="outfit-bold txt-blanco">Crédito</h2>
+                            </div>
+                            <div class="col">
+                                <img src="src/img/page_index/header/transferencia.png" class="icons-header align-items-center" >
+                                <h2 class="outfit-bold txt-blanco">Transferencia</h2>
+                            </div>
+                            <div class="col">
+                                <img src="src/img/page_index/header/efectivo.png" class="icons-header align-items-center" >
+                                <h2 class="outfit-bold txt-blanco">Efectivo</h2>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <section>
+        <article id="Carrusel-Individual">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" class="active" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                    <img src="src/img/page_index/Slider5Im.png" class="d-block w-100" height="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="color-red outfit- shadow-txt-red">PROMOCIONES INDIVIDUALES</h3>
+                    </div>
+                    </div>
+                    <div class="carousel-item active">
+                    <img src="src/img/page_index/Slider3Im.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="color-red outfit- shadow-txt-red">PROMOCIONES INDIVIDUALES</h3>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="src/img/page_index/Slider8Im.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="color-red outfit- shadow-txt-red" >PROMOCIONES INDIVIDUALES</h3>
+                    </div>
+                </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </article>
+    </section>
+    <section id="Carrusel-Grupal">
+        <article id="Carrusel-Grupal">
+            <div id="carouselExampleCaptions1" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" class="active" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                <img src="src/img/page_index/Slider6Im.png" class="d-block w-100" height="" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="color-red outfit- shadow-txt-red">PROMOCIONES GRUPALES</h3>
+                </div>
+                </div>
+                <div class="carousel-item active">
+                <img src="src/img/page_index/Slider4Im.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="color-red outfit- shadow-txt-red">PROMOCIONES GRUPALES</h3>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="src/img/page_index/Slider7Im.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="color-red outfit- shadow-txt-red" >PROMOCIONES GRUPALES</h3>
+                </div>
+                </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </article>
+    </section>
+    <div class="cbg-primary w-100 d-grid">
+        <div class="container align-items-center justify-content-center mb-3 mt-4">
+            <div class="row">
+                <div class="col">
+                    <h3 class="roboto-slab-medium txt-blanco">Sobre nosotros</h3>
+                    <p class="noto-sans-regular txt-blanco">Directora Saidel Josefina: Fundadora y Directora de una de las empresas de Turismo más prestigiosas del país.</p>
+                    <p class="noto-sans-regular txt-blanco">Director Cortez Sebastián: Fundador y Director de la más prestigiosas empresas de Turismo del país.</p>
+                    <p class="noto-sans-regular txt-blanco">El objetivo es proporcionar viajes en la provincia todos los días del año y con todas las comodidades, para asegurar la comodidad y seguridad del cliente.</p>
+                </div>
+                <div class="col text-center">
+                    <img src="src/img/page_index/mujeranonima.png" width="250px" height="250px" class="filtro-desva">
+                    <h5 class="roboto-slab-medium txt-blanco text-center mt-4">Directora Saidel Josefina</h5>
+                </div>
+                <div class="col text-center">
+                    <img src="src/img/page_index/hombreanonimo.png" width="250px" height="250px" class="filtro-desva">
+                    <h5 class="roboto-slab-medium txt-blanco text-center mt-4">Director Cortez Sebastián</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <div class="card w-50 border-black cbg-yellow-light border-2" style="max-width: 18rem;">
+                    <div class="card-body">
+                        <div class="card-title align-content-center">
+                            <img src="src/img/page_index/comments/user-icon.png" width="50px" height="50px">
+                            <h4 class="outfit-bold d-inline">Exelente Servicio</h4>
+                        </div>
+                        <p class="card-text text-center m-3 noto-sans-regular">Esta empresa de turismo realmente brinda un servicio completo, todo lo que promete lo cumple y para sumarle PASÉ UN DIA HERMOSO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <div id="carouselExampleAutoplaying" class="carousel slide m-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                
+            </div>
+            <div class="carousel-item">
+
+            </div>
+            <div class="carousel-item">
+                
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
