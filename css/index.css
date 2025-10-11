@@ -59,11 +59,11 @@ body{
     
 }
 .carousel-control-prev-icon{
-    background-image: url(../src/img/page_index/arrow-left.svg) !important;
+    background-image: url(carrusel/arrow-left.svg) !important;
     filter: invert(100%) !important;
 }
 .carousel-control-next-icon{
-    background-image: url(../src/img/page_index/arrow-right.svg) !important;
+    background-image: url(carrusel/arrow-right.svg) !important;
     filter: invert(100%) !important;
 }
 .carousel-indicators [data-bs-target] {
