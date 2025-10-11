@@ -1,8 +1,17 @@
+@view-transition{
+    navigation: auto;
+}
 :root{
     --orange: #FF8904;
     --yellow: #FFD230;
     --yellow-light: #FEE685;
     --red: #E7180B;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .outfit-bold{
     font-family: "Outfit", sans-serif !important;
@@ -10,18 +19,32 @@
     font-weight: 700 !important;
     font-style: normal !important;
 }
-
+.txt-blanco {
+    color: white;
+}
 .roboto-slab-medium {
     font-family: "Roboto Slab", serif !important;
     font-optical-sizing: auto !important;
     font-weight: 500 !important;
     font-style: normal !important;
 }
+
+.noto-sans-regular {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
 .cbg-primary
 {
     background-color: var(--orange) !important;
 }
-
+.cbg-yellow-light
+{
+    background-color: var(--yellow-light) !important;
+}
 .color-red{
     color: var(--red);
 }
@@ -44,11 +67,21 @@
     filter: invert(100%) !important;
 }
 .carousel-indicators [data-bs-target] {
-    width: 12px !important;
-    height: 12px !important;
+    width: 15px !important;
+    height: 15px !important;
     border-radius: 50% !important;
     background-color: var(--red) !important;
 }
 .carousel-indicators .active{
     background-color: var(--yellow) !important;
+}
+
+.icons-header
+{
+    filter: invert(100%);
+    width: 150px;
+    height: 150px;
+}
+.filtro-desva{
+    mask-image: linear-gradient(#000 95%, #0000);
 }
