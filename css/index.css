@@ -10,12 +10,6 @@ html{
     --yellow-light: #FEE685;
     --red: #E7180B;
 }
-body{
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
 .outfit-bold{
     font-family: "Outfit", sans-serif !important;
     font-optical-sizing: auto !important;
@@ -30,15 +24,16 @@ body{
     font-optical-sizing: auto !important;
     font-weight: 500 !important;
     font-style: normal !important;
+    font-size: 22px !important;
 }
 
-.noto-sans-regular {
+.noto-sans-regular, body {
     font-family: "Noto Sans", sans-serif;
+    font-size: 18px !important;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    font-variation-settings:"wdth" 100;
 }
 .cbg-primary
 {

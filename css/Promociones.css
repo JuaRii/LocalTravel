@@ -42,9 +42,6 @@
 .titulo-seccion h3 
 {
   color: #fff;
-  font-family: 'Noto Sans';
-  font-size: 32px;
-  font-weight: 400;
   letter-spacing: 1px;
   margin: 0;
   text-transform: uppercase;
@@ -118,34 +115,33 @@
 }
 
 .link-armar-viaje {
-  font-family: "Noto Sans", serif;
-  font-size: 32px;
-  font-weight: bold;
-  color: var(--orange);
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
-  padding-bottom: 4px;
-  transition: color 0.3s ease;
+  font-size: 32px !important;
+  font-weight: bold !important;
+  color: var(--orange) !important;
+  text-decoration: none !important;
+  position: relative !important;
+  display: inline-block !important;
+  padding-bottom: 4px !important;
+  transition: color 0.3s ease !important;
 }
 
 .link-armar-viaje::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 3px;
-  background-color: var(--red);
-  transition: width 0.3s ease;
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 0 !important;
+  height: 3px !important;
+  background-color: var(--red) !important;
+  transition: width 0.3s ease !important;
 }
 
 .link-armar-viaje:hover {
-  color: var(--red);
+  color: var(--red) !important;
 }
 
 .link-armar-viaje:hover::after {
-  width: 100%;
+  width: 100% !important;
 }
 
  
