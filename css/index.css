@@ -4,6 +4,10 @@
 html{
     scroll-behavior: smooth;
 }
+/* Evitar scrollbar horizontal causado por filas con gutters negativos o elementos de ancho completo */
+html, body {
+    overflow-x: hidden;
+}
 :root{
     --orange: #FF8904;
     --yellow: #FFD230;
