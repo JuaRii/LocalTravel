@@ -8,6 +8,31 @@ html{
 html, body {
     overflow-x: hidden;
 }
+/**
+ * ----------------------------------------
+ * animation shadow-drop-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
 :root{
     --orange: #FF8904;
     --yellow: #FFD230;
@@ -91,4 +116,16 @@ html, body {
     width: 20px;
     height: 20px;
     filter: invert(100%);
+}
+.search-icon{
+    background-color: white !important;
+    border: none !important;
+    border-radius: 25px 0px 0px 25px !important;
+}
+.search-input{
+    border: none !important;
+    border-radius: 0px 25px 25px 0px !important;   
+}
+.search-input:focus {
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both !important;
 }
