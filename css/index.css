@@ -36,9 +36,8 @@ html, body {
 
 :root{
     --orange: #FF8904;
-    --yellow: #FFD230;
     --yellow-light: #FEE685;
-    --red: #E7180B;
+    --gris: #D9D9D9;
 }
 
 .txt-blanco {
@@ -84,30 +83,6 @@ html, body {
     text-shadow: 2px 1px 0px rgb(0,0,0);
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: #18E7F4 !important;
-    border-radius: 50% !important;
-    padding: 20px !important;
-    
-}
-.carousel-control-prev-icon{
-    background-image: url(carrusel/arrow-left.svg) !important;
-    filter: invert(100%) !important;
-}
-.carousel-control-next-icon{
-    background-image: url(carrusel/arrow-right.svg) !important;
-    filter: invert(100%) !important;
-}
-.carousel-indicators [data-bs-target] {
-    width: 15px !important;
-    height: 15px !important;
-    border-radius: 50% !important;
-    background-color: var(--red) !important;
-}
-.carousel-indicators .active{
-    background-color: var(--yellow) !important;
-}
-
 .icons-header
 {
     filter: invert(100%);
@@ -143,6 +118,7 @@ html, body {
     background-position: center;
     height: 60vh !important; 
     min-height: 400px !important;
+    transition: opacity 1s ease-in-out;
 }
 
 .btn-custom-orange {
@@ -161,39 +137,71 @@ html, body {
 }
 
 .image-wrapper {
-  width: 250px;
-  height: 250px;
-  overflow: hidden;
-  flex-shrink: 0;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 .image-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .service-icon {
-  width: 60px;
+    width: 60px;
 }
 
-/* El botón naranja personalizado (reutilizamos el del ejemplo anterior) */
+#testimonialCarousel .carousel-indicators button {
+    background-color: var(--gris); 
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 0;
+    opacity: 1; 
+}
+.testimonial-icon {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#testimonialCarousel .carousel-indicators .active {
+    background-color: var(--yellow-light);
+}
+#testimonialCarousel .carousel-indicators {
+    bottom: -40px; 
+}
+#testimonialCarousel .carousel-control-prev,
+#testimonialCarousel .carousel-control-next {
+    opacity: 1;
+    width: 10%; 
+}
+
+#testimonialCarousel .carousel-inner {
+    padding: 2rem 0;
+}
 .btn-custom-orange {
-  background-color: var(--orange) !important;
-  border-color: var(--orange) !important;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 5px;
+    background-color: var(--orange) !important;
+    border-color: var(--orange) !important;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
 }
 
 .btn-custom-orange:hover {
-  background-color: #d1832a;
-  border-color: #d1832a;
-  color: white;
+    background-color: #d1832a;
+    border-color: #d1832a;
+    color: white;
 }
 
+
 @media (max-width: 768px) {
-  .display-5 {
+    .display-5 {
     font-size: 2.5rem; 
-  }
+    }
 }
