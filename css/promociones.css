@@ -1,0 +1,139 @@
+:root{
+    --orange: #FF8904;
+    --yellow-light: #FEE685;
+    --gris: #D9D9D9;
+}
+
+/* ============================================== */
+/* === 1. ESTILOS DEL HERO-SEARCH (SECCIÓN 1) === */
+/* ============================================== */
+
+.hero-search-section {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../src/img/page_promocioones/catedral.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 90vh; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.search-card {
+  background-color: rgba(255, 248, 235, 0.9); 
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-card .form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* ============================================== */
+/* === 2. BOTÓN NARANJA (GLOBAL)              === */
+/* ============================================== */
+
+.btn-custom-orange {
+  background-color: var(--orange);
+  border-color: var(--orange);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-custom-orange:hover {
+  background-color: #e08310;
+  border-color: #e08310;
+  color: white;
+}
+
+/* ============================================== */
+/* === 3. PROMO INDIVIDUALES (SECCIÓN 3)      === */
+/* ============================================== */
+
+.promo-individuales-section {
+  /* Reemplaza con tu imagen */
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../src/img/page_promocioones/centro-civico.jpg'); 
+  
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+/* ============================================== */
+/* === 4. SECCIÓN NARANJA (GLOBAL)            === */
+/* ============================================== */
+
+.bg-custom-orange {
+  background-color: var(--orange);
+}
+
+/* ============================================== */
+/* === 5. ESTILOS DE CARRUSEL (SECCIONES 4 y 6) === */
+/* ============================================== */
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+
+.carousel-control-icon {
+  color: #fff;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+.carousel-control-icon:hover {
+  opacity: 1;
+    width: 10%; 
+}
+
+.carousel-indicators {
+  bottom: -40px; 
+}
+
+.carousel-indicators button {
+   background-color: var(--gris); 
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 0;
+    opacity: 1; 
+}
+
+/* Estilo del punto activo */
+.carousel-indicators .active {
+   background-color: var(--yellow-light);
+}
+
+
+/* ============================================== */
+/* === 6. PROMO GRUPALES (SECCIÓN 5)          === */
+/* ============================================== */
+
+.promo-grupales-section {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../src/img/page_promocioones/grupal.jpg'); 
+  
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+/* ============================================== */
+/* === 7. TARJETAS CON OVERLAY (SECCIÓN 7)    === */
+/* ============================================== */
+
+.card-overlay-gradient {
+  background: linear-gradient(180deg, 
+    rgba(0,0,0,0) 50%, 
+    rgba(0,0,0,0.7) 100%
+  );
+}
