@@ -20,7 +20,8 @@
 }
 
 .search-card {
-  background-color: rgba(255, 248, 235, 0.9); 
+  background-color: rgba(254, 230, 133, 0.25);
+   
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
@@ -32,7 +33,18 @@
   font-weight: 600;
   color: #333;
 }
-
+.search-icon{
+    background-color: white !important;
+    border: none !important;
+    border-radius: 25px 0px 0px 25px !important;
+}
+.search-input{
+    border: none !important;
+    border-radius: 0px 25px 25px 0px !important;   
+}
+.search-input:focus {
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both !important;
+}
 /* ============================================== */
 /* === 2. BOTÓN NARANJA (GLOBAL)              === */
 /* ============================================== */
