@@ -110,14 +110,13 @@ html, body {
 }
 .hero-section {
     background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('../src/img/page_index/Bicentenario.jpg');
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../src/img/page_index/Pesca-DiqueCuestadelViento.jpg');
     
     background-size: cover;
     background-position: center;
     height: 60vh !important; 
     min-height: 400px !important;
-    transition: opacity 1s ease-in-out;
 }
 
 .btn-custom-orange {
