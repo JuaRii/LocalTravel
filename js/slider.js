@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   // Tiempo entre cada cambio (en milisegundos)
-  const tiempoDeCambio = 25000;
+  const tiempoDeCambio = 6000;
 
   // --- 2. LÓGICA DEL SLIDER ---
 
