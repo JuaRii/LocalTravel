@@ -33,8 +33,8 @@
                                 PROMOCIONES
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item roboto-slab-medium" href="promociones.html#individuales">INDIVIDUALES</a></li>
-                                <li><a class="dropdown-item roboto-slab-medium" href="promociones.html#individuales">GRUPALES</a></li>
+                                <li><a class="dropdown-item roboto-slab-medium" href="promociones.html#Individuales">INDIVIDUALES</a></li>
+                                <li><a class="dropdown-item roboto-slab-medium" href="promociones.html#Grupales">GRUPALES</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -54,42 +54,43 @@
         </nav>
     <!-- Fin nav -->
     </header>
+<!-- HERO y BUSCADOR -->
     <section class="hero-search-section d-flex flex-column justify-content-center align-items-center text-white">
   <div class="container text-center">
     
-    <h1 class="display-4 fw-bold">Viaja con nosotros</h1>
-    <p class="lead mb-4">
+    <h1 class="display-4 text-black fw-bold">Viaja con nosotros</h1>
+    <p class="lead text-black mb-4">
       Promociones todo el año, para que viajes solo o acompañado y vivas la experiencia de San Juan
     </p>
     
     <div class="search-card p-4 p-md-5 rounded-4">
-      <h5 class="fw-bold mb-4">¿A dónde quieres viajar?</h5>
+      <h5 class="fw-bold text-black mb-4">¿A dónde quieres viajar?</h5>
       
       <form>
         <div class="row g-3">
           <div class="col-12">
-            <label for="departamento" class="form-label text-start d-block text-light">Elige un departamento</label>
+            <label for="departamento" class="form-label text-start d-block text-black">Elige un departamento</label>
             <div class="input-group">
               <span class="input-group-text search-icon"><i class="bi bi-geo-alt-fill"></i></span>
               <input type="text" class="form-control form-control-lg search-input" id="departamento" placeholder="Ej: Calingasta, Iglesia...">
             </div>
           </div>
           <div class="col-12 col-md-6">
-            <label for="cuando" class="form-label text-start d-block text-light">Cuándo</albel>
+            <label for="cuando" class="form-label text-start d-block text-black">Cuándo</albel>
             <div class="input-group mt-2">
               <span class="input-group-text search-icon"><i class="bi bi-calendar-event"></i></span>
               <input type="text" class="form-control form-control-lg search-input" id="cuando" placeholder="Fecha de inicio" onfocus="(this.type='date')">
             </div>
           </div>
           <div class="col-12 col-md-6">
-            <label for="dias" class="form-label text-start d-block text-light">Cuántos días</label>
+            <label for="dias" class="form-label text-start d-block text-black">Cuántos días</label>
             <div class="input-group">
               <span class="input-group-text search-icon"><i class="bi bi-calendar-check"></i></span>
               <input type="number" class="form-control form-control-lg search-input" id="dias" placeholder="Ej: 3">
             </div>
           </div>
           <div class="col-12 text-center mt-4">
-            <button type="submit" class="btn btn-custom-orange rounded-5 btn-lg px-5">Buscar</button>
+            <button type="submit" class="btn btn-custom-orange btn-lg px-5">Buscar</button>
           </div>
         </div>
       </form>
@@ -98,144 +99,71 @@
 </section>
 
 
-<section class="bg-white py-3 shadow-sm">
-  <div class="container text-start color-orange">
-    <h3 class="fw-bold mb-0">Aprovecha nuestras promociones</h3>
-    <p class="mb-0">¡Reservá con un solo click!</p>
-  </div>
-</section>
-
-
-<section class="promo-individuales-section d-flex justify-content-between align-items-end text-white p-4 p-md-5">
+<section class="promo-individuales-section d-flex flex-column justify-content-end align-items-center flex-md-row justify-content-md-between align-items-md-end text-white  text-white p-4 p-md-5" id="Individuales">
   <div class="hero-text">
     <h2 class="display-5 fw-bold">Promociones en viajes individuales</h2>
     <p class="fs-4 mb-0">Vive cada experiencia que San Juan te aporta y conecta con vos mismo</p>
   </div>
-  <div class="hero-button">
+  <div class="hero-button mt-3">
     <a href="#" class="btn btn-custom-orange btn-lg">Más info</a>
   </div>
 </section>
 
 
+
+
+<!-- Carrucel Promos Individuales -->
+
 <section class="bg-custom-orange py-5">
   <div class="container">
-    <h2 class="text-center text-white fw-bold display-5 mb-4">Recorridos guiados y una experiencia única</h2>
     
-    <div id="recorridosCarousel" class="carousel slide">
-      
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#recorridosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#recorridosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      </div>
-      
-      <div class="carousel-inner">
-        
-        <div class="carousel-item active">
-          <div class="row g-4">
-            
-            <div class="col-12 col-md-4">
-              <div class="card h-100 rounded-4 border-0">
-                <img src="src/img/page_promocioones/san-juan-argentina.jpg" class="card-img-top rounded-top-4" alt="Ruta del Vino">
-                <div class="card-body text-center d-flex flex-column">
-                  <h5 class="card-title fw-bold">MENDOZA - RUTA DEL VINO</h5>
-                  <p class="card-text text-muted small">1 Días • 1 Noche</p>
-                  <a href="#" class="btn btn-outline-secondary mt-auto">Más info</a>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-12 col-md-4">
-              <div class="card h-100 rounded-4 border-0">
-                <img src="src/img/page_promocioones/Observatorio.jpg" class="card-img-top rounded-top-4" alt="Observatorio">
-                <div class="card-body text-center d-flex flex-column">
-                  <h5 class="card-title fw-bold">BARREAL - OBSERVATORIO</h5>
-                  <p class="card-text text-muted small">2 Días • 1 Noche</p>
-                  <a href="#" class="btn btn-outline-secondary mt-auto">Más info</a>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-12 col-md-4">
-              <div class="card h-100 rounded-4 border-0">
-                <img src="src/img/page_promocioones/Carrovelismo.jpg" class="card-img-top rounded-top-4" alt="Carrovelismo">
-                <div class="card-body text-center d-flex flex-column">
-                  <h5 class="card-title fw-bold">BARREAL - CARROVELISMO</h5>
-                  <p class="card-text text-muted small">2 Días • 1 Noche</p>
-                  <a href="#" class="btn btn-outline-secondary mt-auto">Más info</a>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-        
-      </div>
+    <h2 class="text-white fw-bold display-5 mb-5">Recorridos guiados y una experiencia única</h2>
+    
+    <div id="recorridosCarousel" class="carousel slide" data-bs-ride="carousel">
       
       <button class="carousel-control-prev" type="button" data-bs-target="#recorridosCarousel" data-bs-slide="prev">
         <span class="carousel-control-icon"><i class="bi bi-arrow-left-circle fs-1"></i></span>
+        <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#recorridosCarousel" data-bs-slide="next">
         <span class="carousel-control-icon"><i class="bi bi-arrow-right-circle fs-1"></i></span>
+        <span class="visually-hidden">Next</span>
       </button>
-    </div>
-    
-  </div>
-</section>
 
-
-<section class="promo-grupales-section d-flex justify-content-between align-items-center text-white p-4 p-md-5">
-  <div>
-    <h2 class="display-5 fw-bold">Promociones en viajes grupales</h2>
-    <p class="fs-4 mb-0">Realizá actividades, recorridos, deportes o expediciones con tus personas</p>
-  </div>
-  <div>
-    <a href="#" class="btn btn-custom-orange btn-lg">Más info</a>
-  </div>
-</section>
-
-
-<section class="bg-custom-orange py-5">
-  <div class="container">
-    <h2 class="text-center text-white fw-bold display-5 mb-4">Realiza las actividades más divertidas en grupo</h2>
-    
-    <div id="actividadesCarousel" class="carousel slide">
-      
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#actividadesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#actividadesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      </div>
-      
       <div class="carousel-inner">
         
         <div class="carousel-item active">
-          <div class="row g-4">
+          <div class="row g-4 justify-content-center">
             
-            <div class="col-12 col-md-4">
-              <div class="card h-100 rounded-4 border-0">
-                <img src="src/img/page_promocioones/Dique_Punta_Negra_Cerro_Negro.jpg" class="card-img-top rounded-top-4" alt="Trekking">
-                <div class="card-body text-center d-flex flex-column">
-                  <h5 class="card-title fw-bold">ULLUM - TRES MARIAS</h5>
-                  <a href="#" class="btn btn-outline-secondary mt-auto">Más info</a>
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+              <div class="card h-100 rounded-5 border-0 shadow-sm">
+                <img src="src/img/page_promocioones/C_Indiv/item1.jpg" class="card-img-top rounded-top-5" alt="Ruta del Vino">
+                <div class="card-body text-center d-flex flex-column p-4">
+                  <h5 class="card-title fw-bold">MENDOZA - RUTA DEL VINO</h5>
+                  <p class="card-text text-muted small mb-3">1 Días</p>
+                  <a href="#" class="btn btn-custom-orange mt-auto">Más info</a>
                 </div>
               </div>
             </div>
             
-            <div class="col-12 col-md-4">
-              <div class="card h-100 rounded-4 border-0">
-                <img src="src/img/page_promocioones/Asado-mirador.jpg" class="card-img-top rounded-top-4" alt="Asado">
-                <div class="card-body text-center d-flex flex-column">
-                  <h5 class="card-title fw-bold">ZONDA - ASADO Y VINO</h5>
-                  <a href="#" class="btn btn-outline-secondary mt-auto">Más info</a>
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+              <div class="card h-100 rounded-5 border-0 shadow-sm">
+                <img src="src/img/page_promocioones/C_Indiv/item2.jpg" class="card-img-top rounded-top-5" alt="Observatorio">
+                <div class="card-body text-center d-flex flex-column p-4">
+                  <h5 class="card-title fw-bold">BARREAL - OBSERVATORIO</h5>
+                  <p class="card-text text-muted small mb-3">2 Días • 1 Noche</p>
+                  <a href="#" class="btn btn-custom-orange mt-auto">Más info</a>
                 </div>
               </div>
             </div>
             
-            <div class="col-12 col-md-4">
-              <div class="card h-100 rounded-4 border-0">
-                <img src="src/img/page_promocioones/Kayak-RioSanJuan1.jpg" class="card-img-top rounded-top-4" alt="Kayak">
-                <div class="card-body text-center d-flex flex-column">
-                  <h5 class="card-title fw-bold">BARREAL - KAYAK</h5>
-                  <a href="#" class="btn btn-outline-secondary mt-auto">Más info</a>
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+              <div class="card h-100 rounded-5 border-0 shadow-sm">
+                <img src="src/img/page_promocioones/C_Indiv/item3.jpg" class="card-img-top rounded-top-5" alt="Carrovelismo">
+                <div class="card-body text-center d-flex flex-column p-4">
+                  <h5 class="card-title fw-bold">BARREAL - CARROVELISMO</h5>
+                  <p class="card-text text-muted small mb-3">2 Días • 1 Noche</p>
+                  <a href="#" class="btn btn-custom-orange mt-auto">Más info</a>
                 </div>
               </div>
             </div>
@@ -244,21 +172,107 @@
         </div>
         
         <div class="carousel-item">
-          </div>
+          <div class="row g-4 justify-content-center">
+            </div>
+        </div>
         
       </div>
-      
-      <button class="carousel-control-prev" type="button" data-bs-target="#actividadesCarousel" data-bs-slide="prev">
-        <span class="carousel-control-icon"><i class="bi bi-arrow-left-circle fs-1"></i></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#actividadesCarousel" data-bs-slide="next">
-        <span class="carousel-control-icon"><i class="bi bi-arrow-right-circle fs-1"></i></span>
-      </button>
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#recorridosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#recorridosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+
     </div>
   </div>
 </section>
 
+<section class="promo-grupales-section d-flex flex-column justify-content-end align-items-center flex-md-row justify-content-md-between align-items-md-end text-white p-4 p-md-5" id="Grupales">
+  <div>
+    <h2 class="display-5 fw-bold">Promociones en viajes grupales</h2>
+    <p class="fs-4 mb-0">Realizá actividades, recorridos, deportes o expediciones con tus personas</p>
+  </div>
+  <div class="mt-3">
+    <a href="#" class="btn btn-custom-orange btn-lg">Más info</a>
+  </div>
+</section>
 
+<!-- Carrusel Promos Grupales -->
+
+<section class="bg-custom-orange py-5">
+  <div class="container">
+    
+    <h2 class="text-white fw-bold display-5 mb-5">Realiza las actividades más divertidas en grupo</h2>
+    
+    <div id="grupalCarousel" class="carousel slide" data-bs-ride="carousel">
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#grupalCarousel" data-bs-slide="prev">
+        <span class="carousel-control-icon"><i class="bi bi-arrow-left-circle fs-1"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#grupalCarousel" data-bs-slide="next">
+        <span class="carousel-control-icon"><i class="bi bi-arrow-right-circle fs-1"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+          <div class="row g-4 justify-content-center">
+            
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+              <div class="card h-100 rounded-5 border-0 shadow-sm">
+                <img src="https://via.placeholder.com/400x300/6c757d/ffffff?text=Ruta+del+Vino" class="card-img-top rounded-top-5" alt="Ruta del Vino">
+                <div class="card-body text-center d-flex flex-column p-4">
+                  <h5 class="card-title fw-bold">MENDOZA - RUTA DEL VINO</h5>
+                  <p class="card-text text-muted small mb-3">1 Días</p>
+                  <a href="#" class="btn btn-custom-orange mt-auto">Más info</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+              <div class="card h-100 rounded-5 border-0 shadow-sm">
+                <img src="https://via.placeholder.com/400x300/343a40/ffffff?text=Observatorio" class="card-img-top rounded-top-5" alt="Observatorio">
+                <div class="card-body text-center d-flex flex-column p-4">
+                  <h5 class="card-title fw-bold">BARREAL - OBSERVATORIO</h5>
+                  <p class="card-text text-muted small mb-3">2 Días • 1 Noche</p>
+                  <a href="#" class="btn btn-custom-orange mt-auto">Más info</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+              <div class="card h-100 rounded-5 border-0 shadow-sm">
+                <img src="https://via.placeholder.com/400x300/0d6efd/ffffff?text=Carrovelismo" class="card-img-top rounded-top-5" alt="Carrovelismo">
+                <div class="card-body text-center d-flex flex-column p-4">
+                  <h5 class="card-title fw-bold">BARREAL - CARROVELISMO</h5>
+                  <p class="card-text text-muted small mb-3">2 Días • 1 Noche</p>
+                  <a href="#" class="btn btn-custom-orange mt-auto">Más info</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            </div>
+        </div>
+        
+      </div>
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#grupalCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#grupalCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Pre Footer -->
 <section class="bg-white py-5">
   <div class="container">
     <h2 class="text-start fw-bold display-5 color-orange mb-4">Disfruta de cada rincón de San Juan</h2>
@@ -268,9 +282,9 @@
       <div class="col-12 col-md-6">
         <div class="card text-white border-0 rounded-4">
           <img src="src/img/page_promocioones/centro-civico-cima.jpg" class="card-img rounded-4" alt="Capital">
-          <div class="card-img-overlay card-overlay-gradient d-flex flex-column justify-content-end p-4 rounded-4">
+          <div class="card-img-overlay card-overlay-gradient d-flex flex-column justify-content-center align-items-center p-4 rounded-4">
             <h3 class="card-title fw-bold">Conoce la Capital</h3>
-            <a href="#" class="btn btn-custom-orange btn-sm align-self-start">Más info</a>
+            <a href="#" class="btn btn-custom-orange btn-sm">Más info</a>
           </div>
         </div>
       </div>
@@ -278,9 +292,9 @@
       <div class="col-12 col-md-6">
         <div class="card text-white border-0 rounded-4">
           <img src="src/img/page_promocioones/Rodeo_san_juan.jpg" class="card-img rounded-4" alt="Zonda">
-          <div class="card-img-overlay card-overlay-gradient d-flex flex-column justify-content-end p-4 rounded-4">
+          <div class="card-img-overlay card-overlay-gradient d-flex flex-column justify-content-center align-items-center p-4 rounded-4">
             <h3 class="card-title fw-bold">Conoce Zonda</h3>
-            <a href="#" class="btn btn-custom-orange btn-sm align-self-start">Más info</a>
+            <a href="#" class="btn btn-custom-orange btn-sm">Más info</a>
           </div>
         </div>
       </div>
