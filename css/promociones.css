@@ -208,11 +208,12 @@
   .card .card-img {
     height: 320px;
   }
+ 
 }
 .card-img--portrait {
   object-fit: contain;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .carousel-item > .row > [class*='col-'] {
         flex: 0 0 100%;
         max-width: 100%;
@@ -228,4 +229,7 @@
         top: 30%; 
         width: 10%;
     }
+     .hero-search-section {
+      min-height: 50vh; 
+      }
 }
