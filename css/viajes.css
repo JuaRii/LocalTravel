@@ -73,5 +73,22 @@
   background-color: #ef6c00;
 }
 
+/* Centrar todas las tarjetas */
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.row > [class*='col'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.tarjeta {
+  margin: 0 auto;
+}
 
 

@@ -238,6 +238,10 @@ html, body {
     .navbar-nav{
         align-items: center;
     }
+    .navbar-brand img{
+        height: 120px;
+        width: 300px;  
+    }
     .hero-section {
     
     background-size: cover;
@@ -245,8 +249,20 @@ html, body {
     height: 25vh !important; 
     min-height: 400px !important;
 }
-
+    .lead{
+        font-size: 1.6rem !important;
+    }
+    .search-card h5{
+        font-size: larger;
+    }
     #navbarSupportedContent .input-group{
         width: 100% !important;
+       
+    }
+    #navbarSupportedContent .search-icon{
+        padding: 1vh;
+    }
+    #navbarSupportedContent .search-input::placeholder{
+       font-size: 26px !important;
     }
 }
