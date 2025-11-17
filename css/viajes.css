@@ -73,14 +73,13 @@
   background-color: #ef6c00;
 }
 
-/* Centrar todas las tarjetas */
-.row {
+.contenedor-san-juan .row {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.row > [class*='col'] {
+.contenedor-san-juan .row > [class*='col'] {
   display: flex;
   justify-content: center;
   align-items: center;
