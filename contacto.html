@@ -92,13 +92,16 @@
             <i class="bi bi-geo-alt-fill"></i> Nuestra ubicación
         </h2>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1700.3879773639048!2d-68.5257464!3d-31.5303129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96816a81da73940d%3A0xd8e2fd2c4e29d8b6!2sC.%20Pedro%20Echag%C3%BCe%20Este%20164%2C%20J5400%20San%20Juan!5e0!3m2!1ses!2sar!4v1763376548852!5m2!1ses!2sar" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1700.3879773639048!2d-68.5257464!3d-31.5303129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96816a81da73940d%3A0xd8e2fd2c4e29d8b6!2sC.%20Pedro%20Echag%C3%BCe%20Este%20164%2C%20J5400%20San%20Juan!5e0!3m2!1ses!2sar!4v1763376548852!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
 </section>
 <section class="section-form roboto-slab">
     <div class="container p-4">
-        <h4 class="pt-4">Ponte en contacto con nosotros</h4>
-        <h5 class="">Ingrese sus datos</h5>
-        <form class="text-light ">
+        <h4 class="pt-4 text-light">Ponte en contacto con nosotros</h4>
+        <h5 class="text-light">Ingrese sus datos</h5>
+        <form class="text-light d-flex flex-column">
             <div class="mb-3">
                 <label for="name" class="form-label">Nombre</label>
                 <input type="text" class="form-control rounded-5" id="name" aria-describedby="emailHelp">
@@ -111,16 +114,19 @@
                 <label for="NumTel" class="form-label">Número de Telefóno</label>
                 <input type="tel" class="form-control rounded-5" id="NumTel">
             </div>
-            <div class="mb-3">
+            <div class="mb-4">
                 <label for="comentarios" class="form-label">Comentarios</label>
-                <textarea class="form-control rounded-5" id="comentarios " rows="3"></textarea>
-                </div>
-            <button type="button" class="btn btn-custom-orange" data-bs-toggle="modal" data-bs-target="#confirmar">Enviar</button>
+                <textarea class="form-control rounded-5 mb-" id="comentarios " rows="3"></textarea>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button type="button" class="btn btn-custom-orange w-25" data-bs-toggle="modal" data-bs-target="#confirmar">Enviar</button>
+            </div>
+            
             </form>
     </div>
     <!-- Modal -->
                     <div class="modal fade roboto-regular" id="confirmar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content rounded-5">
                             <div class="modal-header justify-content-center">
                                 <h1 class="modal-title fs-5" id="confirmar">Datos enviados correctamente</h1>

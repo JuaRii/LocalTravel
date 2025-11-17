@@ -3,7 +3,31 @@
     --yellow-light: #FEE685;
     --gris: #D9D9D9;
 }
-
+/**
+ * ----------------------------------------
+ * animation shadow-drop-center
+ * ----------------------------------------
+ */
+    @-webkit-keyframes shadow-drop-center {
+    0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+    }
+    @keyframes shadow-drop-center {
+    0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+}
 .roboto-slab{
     font-family: "Roboto Slab", serif !important;
     font-weight: 500 !important;
@@ -55,10 +79,17 @@
 .section-form
 {
     background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../src/img/page_contacto/fondo-form.jpg'); 
   
   background-size: cover;
   background-position: center;
   min-height: 400px;
+}
+.section-form button{
+    align-content: end;
+}
+.form-control:focus {
+    border: var(--orange) solid 3px !important;
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both !important;
 }
