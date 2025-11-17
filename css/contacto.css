@@ -9,6 +9,12 @@
     font-weight: 500 !important;
     
 }
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal !important;
+    font-style: normal;
+}
 .bg-orange-custom {
     padding: 40px 0; 
 }

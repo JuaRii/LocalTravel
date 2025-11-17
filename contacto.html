@@ -115,10 +115,28 @@
                 <label for="comentarios" class="form-label">Comentarios</label>
                 <textarea class="form-control rounded-5" id="comentarios " rows="3"></textarea>
                 </div>
-            <button type="submit" class="btn btn-custom-orange">Enviar</button>
+            <button type="button" class="btn btn-custom-orange" data-bs-toggle="modal" data-bs-target="#confirmar">Enviar</button>
             </form>
     </div>
-    
+    <!-- Modal -->
+                    <div class="modal fade roboto-regular" id="confirmar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content rounded-5">
+                            <div class="modal-header justify-content-center">
+                                <h1 class="modal-title fs-5" id="confirmar">Datos enviados correctamente</h1>
+                            </div>
+                            <div class="modal-body text-center">
+                                <p>
+                                    ¡Gracias por contactarte con nosotros! <br>
+                                    En breve un asesor se comunicará contigo
+                                </p>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <a href="index.html" type="button" class="btn btn-custom-orange">Home</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
 </section>
 
 
